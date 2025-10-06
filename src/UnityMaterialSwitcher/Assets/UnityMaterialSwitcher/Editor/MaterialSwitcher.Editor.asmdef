@@ -1,0 +1,16 @@
+{
+    "name": "MaterialSwitcher.Editor",
+    "rootNamespace": "",
+    "references": [
+        "MaterialSwitcher"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
