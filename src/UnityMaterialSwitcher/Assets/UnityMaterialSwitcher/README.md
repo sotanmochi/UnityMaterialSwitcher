@@ -37,7 +37,7 @@ UnityエディターのPackage Managerからインストールできます。
 
 1. Package Managerウィンドウを開く
 2. `+` ボタンをクリックして「Add package from git URL」を選択する
-3. 次のURLを入力: `https://github.com/sotanmochi/UnityMaterialSwitcher.git?path=src/UnityMaterialSwitcher/Assets/UnityMaterialSwitcher#0.1.0`
+3. 次のURLを入力: `https://github.com/sotanmochi/UnityMaterialSwitcher.git?path=src/UnityMaterialSwitcher/Assets/UnityMaterialSwitcher#0.2.0`
 
 Packages/manifest.jsonを直接編集してインストールすることも可能です。
 ```json
@@ -45,7 +45,7 @@ Packages/manifest.jsonを直接編集してインストールすることも可�
 {
   "dependencies": {
     ...
-    "jp.sotanmochi.unitymaterialswitcher": "https://github.com/sotanmochi/UnityMaterialSwitcher.git?path=src/UnityMaterialSwitcher/Assets/UnityMaterialSwitcher#0.1.0",
+    "jp.sotanmochi.unitymaterialswitcher": "https://github.com/sotanmochi/UnityMaterialSwitcher.git?path=src/UnityMaterialSwitcher/Assets/UnityMaterialSwitcher#0.2.0",
     ...
   }
 }
