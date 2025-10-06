@@ -78,7 +78,7 @@ namespace MaterialSwitcher
 
 #if UNITY_EDITOR
                             var directoryPath = Path.GetDirectoryName(AssetDatabase.GetAssetPath(currentMaterial));
-                            directoryPath = Path.Combine(directoryPath, $"{targetMaterialTypeId}Materials");
+                            directoryPath = Path.Combine(directoryPath, $"{targetObject.name}.Materials.{targetMaterialTypeId}");
                             Directory.CreateDirectory(directoryPath);
 
                             var assetPath = Path.Combine(directoryPath, $"{targetMaterial.name}.mat");
