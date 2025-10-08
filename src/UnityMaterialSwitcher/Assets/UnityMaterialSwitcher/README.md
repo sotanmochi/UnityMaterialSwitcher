@@ -1,7 +1,8 @@
 # Unity Material Switcher
 
 ## 概要
-Unity Material Switcherは、GameObjectに適用されているマテリアルを異なるシェーダーのマテリアルに切り替えるための拡張可能なライブラリです。
+[Unity Material Switcher](
+https://github.com/sotanmochi/UnityMaterialSwitcher)は、GameObjectに適用されているマテリアルを異なるシェーダーのマテリアルに切り替えるための拡張可能なライブラリです。
 
 ### 利用可能なマテリアル
 - [lilToon](https://github.com/lilxyzw/lilToon)
@@ -50,6 +51,9 @@ Packages/manifest.jsonを直接編集してインストールすることも可�
   }
 }
 ```
+
+## 参考情報
+- [UnityMaterialSwitcher-Samples](https://github.com/sotanmochi/UnityMaterialSwitcher-Samples)（サンプルプロジェクト）
 
 ## ライセンス情報
 - [MITライセンス](LICENSE.txt)
